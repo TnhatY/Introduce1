@@ -1,0 +1,145 @@
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+header{
+    
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 100px;
+    
+}
+.title{
+    position: absolute;
+    display: flex;
+    padding: 20px 100px;
+    list-style-type: none;
+    width: 100%;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 5%;
+}
+li a{
+    color: black;
+}
+ul li{
+    float:left;
+    padding: 10px 30px;
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 900px;
+    color: rgb(17, 17, 18);
+}
+.the1 li:hover:not(.active) {
+    background-color: #017143 ;
+    border-radius: 20px;
+    color: #ddfaef;
+}
+  
+.active {
+    background-color: #017143 ;
+    border-radius: 20px;
+    color: aliceblue;
+}
+
+
+.img img{
+    width: 400px;
+    float:left;
+    padding-top: 100px;
+    padding-right: 100px;
+    
+}
+.body{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-left:10px ;
+}
+.body .content img{
+   position: absolute; 
+   display: flex;
+   top: 100px;
+   right: 200px;
+}
+h3{
+    font-size: 60px;
+    font-weight: 500px;
+}
+span{
+    font-size: 70px;
+    color: #017143 ;
+    font-weight: 900px;
+}
+p{
+    font-size: 20px;
+}
+.buton{
+    width: 160px;
+    height: 45px;
+    margin-top: 20px;
+    border-radius: 30px;
+    border: none;
+    font-size: 22px;
+    margin-top: 40px;
+    background-color: #145c33;
+}
+.buton:hover{
+    background-color: rgb(23, 120, 38);
+}
+.nut{
+    text-decoration: none;
+    color: rgb(202, 246, 231);
+}
+a{
+    text-decoration: none;
+}
+.icon{
+    position: absolute;
+    display:inline;
+    top: 250px;
+    font-size: 30px;
+    
+}
+.icon i{
+    padding-top: 20px;
+    color: #ddfaef;
+}
+.img3 {
+    
+    position: absolute;
+    display: flex;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+}
+.img3 img{
+    width: 70px;
+    
+
+}
+.img3 img:hover{
+    transform: translateY(-20px);
+    transition: .4s;
+}
+.body1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:#017143 ;
+    clip-path: circle(600px at right 800px);
+    top: 0;
+    left: 0;
+}

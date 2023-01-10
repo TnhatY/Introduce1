@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"type="image/png"
+        href="img\trasua1.png"/>
+    <link rel="stylesheet" type="text/css" href="stylee.css" />
+    <script src="https://kit.fontawesome.com/7c36728ffd.js" crossorigin="anonymous"></script>
+    <title>TEA</title>
+</head>
+<body>
+    <div class="body1"></div>
+        <header>
+            <div class="title"> 
+                <img class="logo" src="img\logo.png"/>
+                <ul class="the1">
+                    <a href="#"> <li class="active">  Home </li> </a>   
+                   <a href="#">  <li> Menu </li> </a> 
+                   <a href="#">  <li> What's New  </li></a>   
+                    <a href="#">  <li> Contact </li> </a> 
+                   
+                </ul>
+            </div>
+        
+    
+        <div class="body">
+            <div class="content"> 
+                <h3>It's not just Coffee  <br> It's <span>Starbucks</span></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod  <br>   
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim venian, <br>
+                    quis nostrud ecercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                <button class="buton">
+                    <a class="nut" href="#">  Leran more</a> 
+                </button>
+            </div>
+            <div class="img">
+                <img src="img\trasua1.png" alt="">
+                <div class="icon">
+                    <a href="#"><i class="fab fa-facebook"></i></a> 
+                    <a href="#"><i class="fab fa-instagram"></i></a>             
+                    <a href="#"><i class="fab fa-twitter"></i></a>   
+                </div>
+            </div>
+        </div>
+        <ul class="img3">
+            <li><img src="img/trasua1.png" onclick="circleColor()" alt=""></li>
+            <li><img src="img/trasua2.png" onclick="circleColor(img/trasua2.png)" alt=""></li>
+            <li><img src="img/trasua3.png" onclick="circleColor(color=red)" alt=""></li>
+        </ul>
+    </header>
+    <script>
+        function imgSlider(anything){
+            document.querySelector('.img3').src=anything;
+        }
+        function circleColor(color){
+            const circle=document.querySelector('.body1');
+            circle.style.background=color;
+        }
+    </script>
+</body>
+</html>
